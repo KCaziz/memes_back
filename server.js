@@ -16,7 +16,7 @@ const app = express();
 // Middleware
 app.use(helmet());
 app.use(cors({
-  origin: ['http://localhost:3000', 'https://memes.az-tenders.com'],
+  origin: ['http://localhost:3000', 'https://memes.az-tenders.com','https://memes.onrender.com'],
   credentials: true
 }));
 
